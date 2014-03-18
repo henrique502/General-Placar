@@ -15,34 +15,13 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="br.com.hrdev.general_placar.MainActivity"
-            android:label="@string/activity_main" >
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        <activity
-            android:name="br.com.hrdev.general_placar.PlayersActivity"
-            android:label="@string/activity_players">
-        </activity>
-        
-        <activity
-            android:name="br.com.hrdev.general_placar.GamePlayActivity"
-            android:label="@string/activity_gameplay">
-        </activity>
-        
-        <activity
-            android:name="br.com.hrdev.general_placar.OptionsActivity"
-            android:label="@string/activity_options">
-        </activity>
-        
-        <activity
-            android:name="br.com.hrdev.general_placar.HelpActivity"
-            android:label="@string/activity_help">
-        </activity>
-        
     </application>
 
 </manifest>

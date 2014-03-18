@@ -2,7 +2,11 @@
 <resources>
 
     <string name="app_name">General Placar</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-
+    
+    <string name="activity_main">General Placar</string>
+    <string name="activity_players">Jogadores</string>
+    <string name="activity_gameplay">Jogo</string>
+    <string name="activity_options">Opções</string>
+    <string name="activity_help">Ajuda</string>
+    
 </resources>

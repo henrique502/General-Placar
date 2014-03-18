@@ -4,4 +4,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="br.com.hrdev.general_placar.MainActivity"
-    tools:ignore="MergeRootFrame" />
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"
+            android:text="Ajuda" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button1"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_marginBottom="84dp"
+            android:text="Jogar" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/button2"
+            android:layout_marginTop="66dp"
+            android:src="@drawable/ic_launcher" />
+
+    </RelativeLayout>
+
+</FrameLayout>
